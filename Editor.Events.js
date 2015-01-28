@@ -1090,7 +1090,7 @@ Editor.search = function(e)
         url = 'http://saskatoon.cs.rit.edu:9001/?query=';
         break;
     case 'Wikipedia':
-        url = 'http://en.wikipedia.org/w/index.php?title=Special%3ASearch&search=';
+        url = 'http://math-min.wmflabs.org/wiki/Special:MathSearch?mathpattern=';
         break;
     default:
         /* Currently NIST DLMF is the default (first list item) */
